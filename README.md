@@ -1,4 +1,4 @@
-# Insertion sort projesi
+# Insertion Sort
 
 ### [22, 27, 16, 2, 18, 6]
 1. Yukarıda verilen dizinin Insertion sort türüne göre aşamalarını yazınız.
@@ -34,3 +34,18 @@
 - [(3, 7), 5, 8, 2, 9, 4, 15, 6]
 - [(3, 5, 7), 8, 2, 9, 4, 15, 6]
 - [(3, 5, 7, 8), 2, 9, 4, 15, 6]
+
+# Merge Sort
+
+### [16, 21, 11, 8, 12, 22]
+1. Yukarıdaki dizinin Merge sort'a göre aşamalarını yazınız.
+2. Big-O gösterimini yazınız.
+
+1. - [16, 21, 11, 8, 12, 22]
+   - [16, 21, 11] [8, 12, 22]
+   - [16, 21] [11] [8, 12] [22]
+   - [16] [21] [11] [8] [12] [22]
+   - [16, 21] [11] [8, 12] [22]
+   - [11, 16, 21] [8, 12, 22]
+   - [8, 11, 12, 16, 21, 22]
+2. O(n*log(n))
